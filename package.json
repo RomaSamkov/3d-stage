@@ -1,0 +1,31 @@
+{
+  "name": "3d-stage",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RomaSamkov/3d-stage",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /3d-stage/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomaSamkov/3d-stage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomaSamkov/3d-stage/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

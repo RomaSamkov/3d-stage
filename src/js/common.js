@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function () {
   // 		prevEl: '.showcase-navigation__prev'
   // 	}
   // })
-  // document.querySelector('video').playbackRate = 2
+  document.querySelector('video').playbackRate = 2;
 });

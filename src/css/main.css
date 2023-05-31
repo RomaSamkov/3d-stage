@@ -159,6 +159,21 @@ html {
   animation: k-glow 1.8s ease-in-out infinite;
 }
 
+.showcase__header {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 40px;
+  z-index: 1;
+  font-family: assassin-st, sans-serif;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.showcase__header span {
+  color: var(--accent);
+}
+
 /* Animations */
 
 @keyframes k-light {

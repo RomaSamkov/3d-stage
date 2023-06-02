@@ -11,23 +11,6 @@
   --transition: cubic-bezier(0.4, 0, 0, 1);
 }
 
-/* BOOTSTRAP SETTINGS SECTION */
-
-/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  --bs-gutter-x: 0.625rem;
-}
-.row,
-.row > * {
-  --bs-gutter-x: 1.25rem;
-}
-
 /* FONTS LOAD SECTION */
 
 @font-face {
@@ -62,26 +45,6 @@
 }
 
 /* GENERAL CSS SETTINGS */
-
-::placeholder {
-  color: #666;
-}
-::selection {
-  background-color: var(--accent);
-  color: #fff;
-}
-input,
-textarea {
-  outline: none;
-}
-input:focus:required:invalid,
-textarea:focus:required:invalid {
-  border-color: red;
-}
-input:required:valid,
-textarea:required:valid {
-  border-color: green;
-}
 
 body {
   font-family: var(--userfont);
@@ -337,7 +300,7 @@ html {
   }
 }
 
-@keyframes k-кшпре-side {
+@keyframes k-right-side {
   0% {
     transform: rotateY(0deg) scaleX(1);
   }

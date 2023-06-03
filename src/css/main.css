@@ -206,7 +206,7 @@ html {
 .showcase-carousel__image-right {
   perspective-origin: right center;
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
-  margin-left: -0.55px;
+  margin-left: -1.25px;
 }
 
 .showcase-carousel__image-right .showcase-carousel__image {
